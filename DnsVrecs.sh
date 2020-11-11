@@ -30,7 +30,7 @@ elif [ "$2" == "cname" ]
 then
 host -t $2 $1
 else
-for regstypes in $(cat regstypes.txt);do
+for regstypes in $(cat $2);do
 host -t $regstypes $1
 done
 fi
