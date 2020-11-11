@@ -13,7 +13,7 @@ then
 	echo "              Modo de uso: $0 exemplo.com cname"
 elif [ "$2" == "" ]
 then
-	echo "              Modo de uso: $0 exemplo.com all"
+	echo "              Modo de uso: $0 exemplo.com allregstype.txt"
 elif [ "$2" == "txt" ]
 then
 host -t $2 $1
