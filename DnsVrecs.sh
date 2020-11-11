@@ -10,7 +10,7 @@ echo '
 '
 if [ "$1" == "" ]
 then
-	echo "              Modo de uso: $0 exemplo.com all"
+	echo "              Modo de uso: $0 exemplo.com cname"
 elif [ "$2" == "" ]
 then
 	echo "              Modo de uso: $0 exemplo.com all"
